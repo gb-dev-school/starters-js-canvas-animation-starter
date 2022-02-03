@@ -2,16 +2,22 @@
 This starter template project is a part of *GB Dev School* initiative by Grigoriy Beziuk (@gbezyuk).
 
 ## Purpose
-Allow students to:
+To allow students to:
 * practice with 2D animations using JavaScript and 2D Canvas
 * get familiar with the concept of separation of state and its representation
+* see state management and reducers in practice
 
 ## Prerequisites
 * Basic JavaScript familiarity: understanding
-  * expressions, variables, functions, using dictionaries
+  * expressions
+  * variables
+  * functions
+  * dictionaries
+* basic written English skills, obviously
+* some enthusiasm ;)
 
 ## How to use
-1. Clone this repo, or download a release and unarchive it.
+1. Fork/clone this repo, or download a release and unarchive it.
 2. Open `index.html` in your favorite web browser; you should see some minimalistic animation.
 3. Open `scripts/payload/state.js` and `scripts/payload/representation.js`
    in your favorite text/code editor, and start hacking.
@@ -25,18 +31,19 @@ At this point, the student is supposed to edit `scripts/payload/representation.j
 
 You could find this useful: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
 
-* Change the size and color of the moving rectangle
-* Instead of the rectangle, try using moving something different around
-* Add some background, maybe?
+* reduce FPS in order to slow down the animation, if you'd like
+* change the size and color of the moving rectangle
+* instead of the rectangle, try make the moving object look different: a round, a star, a trojan horse?
+* maybe add some background?
 
 ### 2. Minor state changes
 
 At this point, the student is supposed to edit `scripts/payload/state.js` only.
 
-* reduce FPS in order to slow down the animation, if you'd like
-* given FPS is the same, make the point move faster or slower
-* change its movement direction
+* given FPS is the same, make the object move faster or slower
+* change movement direction
 * make it bounce of canvas' edges instead of teleporting
+* make it move non-linearly, maybe even randomly
 
 ### 3. Extending the state
 
@@ -69,3 +76,9 @@ At this point, the student can edit whatever feels necessary for the task.
 * get back to the original single object state, but now let user control its movement
 * how about having two objects, and two users?
 * how about letting them shoot at each other?
+
+### 6. Games
+
+* implement tic-tac-toe using this starter
+* how about other simple games: chess, checkers?
+* how about cloning classic arcades? The whole world lies before you.
