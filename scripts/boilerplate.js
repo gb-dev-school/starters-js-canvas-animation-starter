@@ -66,5 +66,7 @@ function onAnimationFrame () {
     window.requestAnimationFrame(onAnimationFrame)
 }
 
+state = initState()
+
 // start with drawing the first frame
 window.requestAnimationFrame(onAnimationFrame)

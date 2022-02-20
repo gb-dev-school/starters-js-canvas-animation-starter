@@ -21,7 +21,7 @@ function initState () {
         y: 1
     }
 }
-let state = initState()
+let state
 
 
 // Here the evolution of the model occurs, as it moves from one state to another.
